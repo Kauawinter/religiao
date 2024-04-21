@@ -1,0 +1,101 @@
+@charset "UTF-8" ;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.fundo {
+    background-color: rgba(0, 0, 0, 0.774);
+    max-width: 65%;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+
+div#h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-family: 'Kaushan Script',serif;
+}
+
+
+.img {
+    background-image: url(Itsukushima_Gate.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    box-shadow: 1px 0px 20px black inset;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+
+}
+
+div#imgdois {
+    background-image: url(divine-siblings-of-japans-mythology-tsukuyomi-the-moon-god-v0-eqs177t77q8b1.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    box-shadow: 1px 0px 20px black inset;
+    margin-bottom: 50px;
+    padding-top: 85px;
+    padding-bottom: 85px;
+
+}
+
+.p {
+    margin: 10px 10px 50px 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 90%;
+    text-align: justify;
+}
+
+main {
+    font-family: 'Kaushan Script',serif;
+    font-size: 21px;
+}
+
+h2 {
+    margin: 10px 10px 10px 30px;
+
+}
+
+li {
+    margin: 10px 10px 10px 30px;
+    padding-bottom: 10px;
+    width: 90%;
+    text-align: justify;
+
+}
+
+img  {
+    width: 50px;
+    height: 50px;
+    margin-left: 45%;
+}
+
+.paragrafo {
+    margin-left: 10px ;
+}
+
+@media screen and (max-width: 640px) {
+    div#imgdois {
+        background-image: url(981.webp);
+    }
+
+    .img {
+        background-image: url(download.jpeg);
+    }
+}
